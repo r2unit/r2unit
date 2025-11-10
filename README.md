@@ -1,6 +1,6 @@
 # Hello world
 
-Hey, I'm **Lorenzo**. i'm a Compute Engineer who loves functional programming. 
+Hey, I'm **Lorenzo**. i'm a Developer who loves functional programming. 
 
 ## How to Connect
 
