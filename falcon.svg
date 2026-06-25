@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 170" width="800" height="170">
+  <defs>
+    <style>
+      .ship {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        fill: #58a6ff;
+        animation: fly 14s linear infinite;
+      }
+      @keyframes fly {
+        0%   { transform: translateX(820px); }
+        100% { transform: translateX(-700px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Space background -->
+  <rect width="800" height="170" fill="#0d1117"/>
+
+  <!-- Stars -->
+  <circle cx="12"  cy="8"   r="1"   fill="white" opacity="0.9"/>
+  <circle cx="45"  cy="22"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="90"  cy="5"   r="1"   fill="white" opacity="0.8"/>
+  <circle cx="130" cy="38"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="175" cy="14"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="210" cy="55"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="255" cy="9"   r="1"   fill="white" opacity="0.85"/>
+  <circle cx="300" cy="32"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="340" cy="18"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="385" cy="44"  r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="420" cy="7"   r="1"   fill="white" opacity="0.8"/>
+  <circle cx="460" cy="28"  r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="500" cy="52"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="545" cy="11"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="580" cy="39"  r="1"   fill="white" opacity="0.85"/>
+  <circle cx="620" cy="20"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="660" cy="48"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="700" cy="13"  r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="745" cy="35"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="785" cy="22"  r="0.7" fill="white" opacity="0.7"/>
+  <circle cx="25"  cy="62"  r="0.8" fill="white" opacity="0.65"/>
+  <circle cx="70"  cy="80"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="115" cy="95"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="160" cy="72"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="200" cy="110" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="240" cy="88"  r="1"   fill="white" opacity="0.85"/>
+  <circle cx="280" cy="130" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="320" cy="68"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="365" cy="105" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="405" cy="82"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="445" cy="118" r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="490" cy="75"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="530" cy="135" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="570" cy="90"  r="1"   fill="white" opacity="0.85"/>
+  <circle cx="610" cy="115" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="650" cy="78"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="690" cy="140" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="730" cy="98"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="770" cy="125" r="0.7" fill="white" opacity="0.7"/>
+  <circle cx="55"  cy="150" r="1"   fill="white" opacity="0.65"/>
+  <circle cx="100" cy="160" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="195" cy="155" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="350" cy="158" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="480" cy="163" r="1"   fill="white" opacity="0.9"/>
+  <circle cx="600" cy="155" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="720" cy="162" r="1"   fill="white" opacity="0.8"/>
+
+  <!-- Millennium Falcon ASCII art, flying right to left -->
+  <g class="ship">
+    <text x="0" y="42">                _______________</text>
+    <text x="0" y="58">          _____/               \_____</text>
+    <text x="0" y="74">    _____/        .---------.         \___</text>
+    <text x="0" y="90">   /      ( o )  |  . . . .  |  ( o )     \====</text>
+    <text x="0" y="106">   \___           '---------'           ___/====</text>
+    <text x="0" y="122">       \_________________________________/</text>
+    <text x="0" y="138">                   |  |  |</text>
+  </g>
+</svg>

@@ -1,3 +1,5 @@
+![Millennium Falcon](falcon.svg)
+
 # Hello world
 
 Hey, I'm **Lorenzo**. i'm a Developer who loves functional programming. 
