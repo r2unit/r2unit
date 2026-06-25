@@ -75,7 +75,7 @@
   <circle cx="740" cy="275" r="1"   fill="white" opacity="0.9"/>
   <circle cx="870" cy="248" r="0.7" fill="white" opacity="0.6"/>
 
-  <!-- Millennium Falcon ASCII art by Row -->
+  <!-- Millennium Falcon ASCII art -->
   <g class="ship">
     <text x="0" y="26">                c==o</text>
     <text x="0" y="41">              _/____\_</text>
@@ -91,7 +91,7 @@
     <text x="0" y="191">   \__\    __. ||^l  \Y] /_]  (_) .  _,--'</text>
     <text x="0" y="206">     \~_]  L_| || .\ .\\/~.    _,--'"</text>
     <text x="0" y="221">      \_\ . __/||  |\  \`-+-&lt;'"</text>
-    <text x="0" y="236">        "`---._|J__L|X o~~|[\\      "Millenium Falcon"</text>
-    <text x="0" y="251">  -Row         \____/ \___|[//      Modified Corellian YT-1300 Transport</text>
+    <text x="0" y="236">        "`---._|J__L|X o~~|[\\</text>
+    <text x="0" y="251">               \____/ \___|[//</text>
   </g>
 </svg>
