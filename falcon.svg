@@ -1,78 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 170" width="800" height="170">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="900" height="290">
   <defs>
     <style>
       .ship {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 13px;
+        font-size: 12.5px;
         fill: #58a6ff;
-        animation: fly 14s linear infinite;
+        animation: fly 18s linear infinite;
       }
       @keyframes fly {
-        0%   { transform: translateX(820px); }
-        100% { transform: translateX(-700px); }
+        0%   { transform: translateX(920px); }
+        100% { transform: translateX(-750px); }
       }
     </style>
   </defs>
 
   <!-- Space background -->
-  <rect width="800" height="170" fill="#0d1117"/>
+  <rect width="900" height="290" fill="#0d1117"/>
 
   <!-- Stars -->
-  <circle cx="12"  cy="8"   r="1"   fill="white" opacity="0.9"/>
-  <circle cx="45"  cy="22"  r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="90"  cy="5"   r="1"   fill="white" opacity="0.8"/>
-  <circle cx="130" cy="38"  r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="175" cy="14"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="210" cy="55"  r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="255" cy="9"   r="1"   fill="white" opacity="0.85"/>
-  <circle cx="300" cy="32"  r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="340" cy="18"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="385" cy="44"  r="0.8" fill="white" opacity="0.75"/>
-  <circle cx="420" cy="7"   r="1"   fill="white" opacity="0.8"/>
-  <circle cx="460" cy="28"  r="0.7" fill="white" opacity="0.65"/>
-  <circle cx="500" cy="52"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="545" cy="11"  r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="580" cy="39"  r="1"   fill="white" opacity="0.85"/>
-  <circle cx="620" cy="20"  r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="660" cy="48"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="700" cy="13"  r="0.8" fill="white" opacity="0.75"/>
-  <circle cx="745" cy="35"  r="1"   fill="white" opacity="0.8"/>
-  <circle cx="785" cy="22"  r="0.7" fill="white" opacity="0.7"/>
-  <circle cx="25"  cy="62"  r="0.8" fill="white" opacity="0.65"/>
-  <circle cx="70"  cy="80"  r="1"   fill="white" opacity="0.8"/>
-  <circle cx="115" cy="95"  r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="160" cy="72"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="200" cy="110" r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="240" cy="88"  r="1"   fill="white" opacity="0.85"/>
-  <circle cx="280" cy="130" r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="320" cy="68"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="365" cy="105" r="0.8" fill="white" opacity="0.75"/>
-  <circle cx="405" cy="82"  r="1"   fill="white" opacity="0.8"/>
-  <circle cx="445" cy="118" r="0.7" fill="white" opacity="0.65"/>
-  <circle cx="490" cy="75"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="530" cy="135" r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="570" cy="90"  r="1"   fill="white" opacity="0.85"/>
-  <circle cx="610" cy="115" r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="650" cy="78"  r="1"   fill="white" opacity="0.9"/>
-  <circle cx="690" cy="140" r="0.8" fill="white" opacity="0.75"/>
-  <circle cx="730" cy="98"  r="1"   fill="white" opacity="0.8"/>
-  <circle cx="770" cy="125" r="0.7" fill="white" opacity="0.7"/>
-  <circle cx="55"  cy="150" r="1"   fill="white" opacity="0.65"/>
-  <circle cx="100" cy="160" r="0.8" fill="white" opacity="0.7"/>
-  <circle cx="195" cy="155" r="1"   fill="white" opacity="0.8"/>
-  <circle cx="350" cy="158" r="0.7" fill="white" opacity="0.6"/>
-  <circle cx="480" cy="163" r="1"   fill="white" opacity="0.9"/>
-  <circle cx="600" cy="155" r="0.8" fill="white" opacity="0.75"/>
-  <circle cx="720" cy="162" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="18"  cy="12"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="55"  cy="30"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="100" cy="8"   r="1"   fill="white" opacity="0.85"/>
+  <circle cx="145" cy="44"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="190" cy="18"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="235" cy="60"  r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="275" cy="10"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="315" cy="38"  r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="360" cy="22"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="400" cy="50"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="445" cy="14"  r="1"   fill="white" opacity="0.85"/>
+  <circle cx="490" cy="35"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="530" cy="55"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="575" cy="20"  r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="615" cy="42"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="660" cy="16"  r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="705" cy="48"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="745" cy="28"  r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="790" cy="12"  r="1"   fill="white" opacity="0.85"/>
+  <circle cx="840" cy="38"  r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="880" cy="22"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="30"  cy="75"  r="0.8" fill="white" opacity="0.65"/>
+  <circle cx="78"  cy="95"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="122" cy="115" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="170" cy="80"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="215" cy="130" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="258" cy="100" r="1"   fill="white" opacity="0.85"/>
+  <circle cx="300" cy="145" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="345" cy="78"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="390" cy="118" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="432" cy="92"  r="1"   fill="white" opacity="0.8"/>
+  <circle cx="475" cy="135" r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="518" cy="88"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="562" cy="150" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="605" cy="105" r="1"   fill="white" opacity="0.85"/>
+  <circle cx="648" cy="128" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="692" cy="90"  r="1"   fill="white" opacity="0.9"/>
+  <circle cx="736" cy="155" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="778" cy="112" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="822" cy="140" r="0.7" fill="white" opacity="0.7"/>
+  <circle cx="865" cy="95"  r="1"   fill="white" opacity="0.65"/>
+  <circle cx="60"  cy="175" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="110" cy="200" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="210" cy="185" r="0.7" fill="white" opacity="0.6"/>
+  <circle cx="370" cy="210" r="1"   fill="white" opacity="0.9"/>
+  <circle cx="500" cy="195" r="0.8" fill="white" opacity="0.75"/>
+  <circle cx="630" cy="215" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="760" cy="185" r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="855" cy="205" r="1"   fill="white" opacity="0.7"/>
+  <circle cx="40"  cy="250" r="0.8" fill="white" opacity="0.6"/>
+  <circle cx="180" cy="265" r="1"   fill="white" opacity="0.75"/>
+  <circle cx="320" cy="245" r="0.7" fill="white" opacity="0.7"/>
+  <circle cx="460" cy="270" r="1"   fill="white" opacity="0.8"/>
+  <circle cx="600" cy="255" r="0.8" fill="white" opacity="0.65"/>
+  <circle cx="740" cy="275" r="1"   fill="white" opacity="0.9"/>
+  <circle cx="870" cy="248" r="0.7" fill="white" opacity="0.6"/>
 
-  <!-- Millennium Falcon ASCII art, flying right to left -->
+  <!-- Millennium Falcon ASCII art by Row -->
   <g class="ship">
-    <text x="0" y="42">                _______________</text>
-    <text x="0" y="58">          _____/               \_____</text>
-    <text x="0" y="74">    _____/        .---------.         \___</text>
-    <text x="0" y="90">   /      ( o )  |  . . . .  |  ( o )     \====</text>
-    <text x="0" y="106">   \___           '---------'           ___/====</text>
-    <text x="0" y="122">       \_________________________________/</text>
-    <text x="0" y="138">                   |  |  |</text>
+    <text x="0" y="26">                c==o</text>
+    <text x="0" y="41">              _/____\_</text>
+    <text x="0" y="56">       _.,--'" ||^ || "`z._</text>
+    <text x="0" y="71">      /_/^ ___\||  || _/o\ "`-._</text>
+    <text x="0" y="86">    _/  ]. L_| || .||  \_/_  . _`--._</text>
+    <text x="0" y="101">   /_~7  _ . " ||. || /] \ ]. (_)  . "`--.</text>
+    <text x="0" y="116">  |__7~.(_)_ []|+--+|/____T_____________L|</text>
+    <text x="0" y="131">  |__|  _^(_) /^   __\____ _   _|</text>
+    <text x="0" y="146">  |__| (_){_) J ]K{__ L___ _   _]</text>
+    <text x="0" y="161">  |__| . _(_) \v     /__________|________</text>
+    <text x="0" y="176">  l__l_ (_). []|+-+-&lt;\^   L  . _   - ---L|</text>
+    <text x="0" y="191">   \__\    __. ||^l  \Y] /_]  (_) .  _,--'</text>
+    <text x="0" y="206">     \~_]  L_| || .\ .\\/~.    _,--'"</text>
+    <text x="0" y="221">      \_\ . __/||  |\  \`-+-&lt;'"</text>
+    <text x="0" y="236">        "`---._|J__L|X o~~|[\\      "Millenium Falcon"</text>
+    <text x="0" y="251">  -Row         \____/ \___|[//      Modified Corellian YT-1300 Transport</text>
   </g>
 </svg>
